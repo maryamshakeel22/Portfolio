@@ -18,7 +18,7 @@ const Contact = () => {
         'service_udrlmvn',  
         'template_3plkacd', 
         form.current,
-        'NtcVytfy4UkVK2Lfa' 
+        'y2tFpi3dbxx2nKVQp' 
       ).then(() => {
         notify();
       }).catch((error) => {

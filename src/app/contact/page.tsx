@@ -172,7 +172,7 @@ const Contact = () => {
                 </div>
                 <div className="ml-6 grow">
                   <p className="mb-2 font-bold text-black">Whatsapp Contact</p>
-                  <p className="text-neutral-500">+923355413530</p>
+                  <p className="text-neutral-500"></p>
                 </div>
               </div>
             </div>
@@ -188,3 +188,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

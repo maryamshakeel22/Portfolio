@@ -12,16 +12,14 @@ import Link from "next/link";
         <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
           {/* Profile Image */}
           <div className="relative">
-            <Image
-              src={pic}
-              alt="dp"
-              height={200}
-              width={400}
-              className="rounded-full shadow-lg transform transition-transform duration-500 hover:scale-105 hover:rotate-3"
-              data-aos="zoom-in"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
-            />
+            <div className="w-[200px] h-[200px] relative">
+  <Image
+    src={pic}
+    alt="mypic"
+    fill
+    className="rounded-full object-cover shadow-lg transform transition-transform duration-500 hover:scale-105 hover:rotate-3"
+  />
+</div>
             {/* Circular Background Decoration */}
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-cyan-500 opacity-30 rounded-full animate-pulse"></div>
           </div>

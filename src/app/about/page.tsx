@@ -13,7 +13,7 @@ import Link from "next/link";
           {/* Profile Image */}
           <div className="relative">
             <Image
-              src={pic}
+              src={dp}
               alt="dp"
               height={400}
               width={400}

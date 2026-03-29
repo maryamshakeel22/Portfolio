@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import pic from "../../../public/mypic.png";
+import pic from "../../../public/dp.jpeg";
 import Typewriter from 'typewriter-effect';
 import Link from "next/link";
 

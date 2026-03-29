@@ -14,7 +14,7 @@ import Link from "next/link";
           <div className="relative">
             <Image
               src={pic}
-              alt="mypic"
+              alt="dp"
               height={400}
               width={400}
               className="rounded-full shadow-lg transform transition-transform duration-500 hover:scale-105 hover:rotate-3"

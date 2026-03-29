@@ -12,7 +12,7 @@ import Link from "next/link";
         <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
           {/* Profile Image */}
           <div className="relative">
-            <div className="w-[200px] h-[200px] relative">
+            <div className="w-[250px] h-[250px] relative">
   <Image
     src={pic}
     alt="mypic"

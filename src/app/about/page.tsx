@@ -15,7 +15,7 @@ import Link from "next/link";
             <Image
               src={pic}
               alt="dp"
-              height={400}
+              height={200}
               width={400}
               className="rounded-full shadow-lg transform transition-transform duration-500 hover:scale-105 hover:rotate-3"
               data-aos="zoom-in"
